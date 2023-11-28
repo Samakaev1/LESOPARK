@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+body {
+  background-color: #DCDCDC;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background:
+   linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.8)),
+   url(img/BG.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 1280px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+footer {
+  background-color: #DCDCDC;
+}
+.im1 {
+  width: 200px;
+  height: 200px;
+}
+.theme {font-size: 32px; margin-left: 15px; margin-top: 15px;}
+#btm {
+  border-radius: 20px;
+  background-color: yellow;
+  width: 70px;
+  cursor: pointer;
+  color: #000;
+}
+#mein {
+  visibility: hidden;
+  background-color: #FFF;
+}
+.A {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+.B {color: #483D8B;}
+.C {border-bottom: 1px solid #483D8B;}
+.pered {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.text {font-size: 16px;}
+.name {font-size: 32px; text-align: center;}
+.pered {padding: 10px;}
+.txt {font-size: 18px;}
+.btn1 {
+  background-color: #FFF;
+  width: 115px;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+.btn1 ul {
+  padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+}
+.btn1 ul ul {
+  display: none;
+	position: absolute;
+  top: 100%;
+}
+
+.I:focus ~ .sub-menu,
+.I:active ~ .sub-menu,
+.btn1 ul li:hover > ul {display: inherit;}
+.btn1 ul ul li {
+  width:115px;
+	float:none;
+	display:list-item;
+	position: relative;
+  padding: 15px;
+  background-color: #FFF;
+}
+.btn1 ul ul li:hover {background: #000;}
+.btn1 ul ul li:hover > a {color: #FFF;}
+.btn2 {
+  background-color: #FFF;
+  width: 115px;
+  height: 40px;
+  margin-left: 15px;
+  text-align: center;
+  border-radius: 5px;
+}
+.knopki {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+a {text-decoration: none;}
+.text {padding: 20px;}
